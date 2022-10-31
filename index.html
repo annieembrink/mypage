@@ -10,10 +10,22 @@
 </head>
 
 <body>
+
+    <!-- The Modal -->
+    <div id="myModal" class="modal">
+        <span class="close">&times;</span>
+
+        <!-- Modal content -->
+        <div class="modal-content">
+            <img src="/img/annie.png" alt=""/>
+        </div>
+
+    </div>
+
     <header>
         <div id="headerContent">
             <div id="imgContainer">
-                <img src="/img/annie.png" alt="" />
+                <img id="profPic" src="/img/annie.png" alt="" onclick="imgOnClick()" />
             </div>
             <div id="headerText">
                 <p id="nameAnnie">Annie Embrink</p>
@@ -88,15 +100,15 @@
                 <p>annie.embrink@gmail.com</p>
             </div>
 
+            <div id="phoneItem">
+                <img src="/img/phone.png" alt="" />
+                <p>072 538 48 17</p>
+            </div>
+
             <div id="linkeinItem">
                 <img src="/img/linkedin.png" alt="" />
                 <a href="https://www.linkedin.com/in/annie-embrink-682155202/" target="_blank"
                     rel="noreferrer">Linkedin</a>
-            </div>
-
-            <div id="phoneItem">
-                <img src="/img/phone.png" alt="" />
-                <p>072 538 48 17</p>
             </div>
 
             <div id="gitItem">
@@ -105,6 +117,8 @@
             </div>
         </div>
     </footer>
+
+    <script src="code.js"></script>
 </body>
 
 </html>
