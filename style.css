@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono:wght@400;700&display=swap');
 
 * {
     margin: 0;
@@ -50,7 +51,7 @@ header {
 
 /* MAIN */
 main {
-    margin-bottom: 150px;
+    margin-bottom: 200px;
     padding: 15px;
 }
 
@@ -90,16 +91,14 @@ main a {
 #pTags {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    /* max-width: 250px; */
+    max-width: 250px;
     margin: auto;
 }
 
 #skills #pTags p {
-    background-color: #62929E;
     margin: 10px;
-    padding: 10px 20px;
-    border-radius: 5px;
-    color: #F5F5F5;
+    color: #62929E;
+    font-family: 'Ubuntu Mono', monospace;
     font-weight: 600;
 }
 
@@ -215,7 +214,7 @@ footer a {
     #footerContent {
         flex-direction: row;
         justify-content: space-between;
-        max-width: 80%;
+        width: 90%;
         margin: auto;
     }
 
