@@ -9,6 +9,7 @@
 }
 
 body {
+    width: 100%;
     background-color: #F5F5F5;
 }
 
@@ -16,12 +17,32 @@ body {
 
 header {
     background-color: #E87461;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+#contact {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 5px 10px;
+    border-radius: 10px;
+    background-color:#F5F5F5;
+    color: #E87461;
+    font-size: 0.8rem;
+    cursor: pointer;
+
 }
 
 #headerContent {
+    width: 100%;
     padding: 15px;
     color: #F5F5F5;
     display: flex;
+    flex-direction: row;
+    text-align: center;
     justify-content: space-between;
 }
 
@@ -41,8 +62,9 @@ header {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 150px;
-    text-align: center;
+    margin-top: 10px;
+    /* width: 150px; */
+    /* text-align: center; */
 }
 
 #webDev {
@@ -52,6 +74,7 @@ header {
 /* MAIN */
 main {
     margin-bottom: 200px;
+    margin-top: 200px;
     padding: 15px;
 }
 
@@ -84,6 +107,10 @@ main a {
     color: #62929E;
 }
 
+#gitItem {
+    padding: 0;
+}
+
 #lookingForWork p {
     margin: 10px 0;
 }
@@ -102,42 +129,44 @@ main a {
     font-weight: 600;
 }
 
-/* #skills img {
-    width: 70px;
-    margin: 5px;
-} */
-
 /* FOOTER */
-
-footer {
-    width: 100%;
-    background-color: #E87461;
-    position: fixed;
-    left: 0;
-    bottom: 0;
-}
 
 #footerContent {
     display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
     gap: 10px;
     color: #F5F5F5;
     padding: 15px;
+    /* flex-grow: 1; */
+    row-gap: 20px;
+    margin: auto;
+
 }
 
-footer div {
+#footerContent div {
     display: flex;
+    align-items: center;
+    justify-content: center;
+
 }
 
-footer img {
+#footerContent div img {
+    /* display: none; */
+    width: 10vw;
+    margin-right: 10px;
+    color: #F5F5F5;
+}
+
+/* footer div {
+    display: flex;
+} */
+
+/* footer img {
     width: 30px;
     margin-right: 10px;
-}
+} */
 
-footer a {
-    text-decoration: none;
-    color: white;
-}
+
 
 
 /* The Modal (background) */
@@ -168,6 +197,21 @@ footer a {
     padding: 20px;
 }
 
+.contact-modal-content {
+    display: flex;
+    align-items: flex-end;
+    background-color: #F5F5F5;
+    margin: auto;
+    width: 100%;
+    height: 100%;
+}
+
+.contact-modal-content p, .contact-modal-content a {
+    color: #E87461;
+    text-decoration: none;
+    font-weight: 500;
+}
+
 .modal-content img {
     width: 100%;
     border-radius: 5%;
@@ -175,9 +219,20 @@ footer a {
 
 /* The Close Button */
 .close {
-    color: #aaa;
+    color: #E87461;
     padding: 20px;
     float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.contactClose {
+    position: absolute;
+    top: 0;
+    right: 0;
+
+    color: #E87461;
+    padding: 20px;
     font-size: 28px;
     font-weight: bold;
 }
@@ -195,6 +250,7 @@ footer a {
         max-width: 600px;
         margin: auto;
         margin-bottom: 100px;
+        margin-top: 200px;
     }
 
     #headerText {
@@ -202,23 +258,55 @@ footer a {
     }
 
     #headerContent {
-        max-width: 35%;
+        padding: 15px;
+        color: #F5F5F5;
+        display: flex;
+        flex-direction: row;
+        justify-content: unset;
     }
 
-    footer {
+    #headerText {
+        display: flex;
+        justify-content: center;
+        width: 150px;
+        text-align: center;
+        margin-left: 10px;
+    }
+
+    /* footer {
         min-height: 10%;
         display: flex;
         align-items: center;
-    }
+    } */
 
     #footerContent {
-        flex-direction: row;
-        justify-content: space-between;
-        width: 90%;
+        display: flex;
+        flex-direction: column-reverse;
+        /* justify-content: space-between; */
+        width: 80%;
         margin: auto;
+        gap: 30px;
+        color: #F5F5F5;
+        padding: 15px;
+        /* flex-grow: 1; */
+    }
+
+    #footerContent div {
+        justify-content: center;
+    }
+
+    #footerContent div img {
+        display: block;
+        width: 1.5rem;
+        margin-right: 10px;
     }
 
     .modal-content {
         width: 40vw;
     }
+
+    #footerContent div {
+        display: flex;
+    }
+    
 }
