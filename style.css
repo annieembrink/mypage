@@ -76,8 +76,8 @@ main {
     padding: 15px;
 }
 
-main div {
-    margin: 40px 0;
+main>div {
+    margin: 50px 0;
 }
 
 main h4,
@@ -241,8 +241,8 @@ main a {
     main {
         max-width: 600px;
         margin: auto;
-        margin-bottom: 100px;
-        margin-top: 200px;
+        margin-bottom: 50px;
+        margin-top: 150px;
     }
 
     #headerText {
