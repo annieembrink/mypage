@@ -75,9 +75,9 @@ header {
 
 /* MAIN */
 main {
-    margin-bottom: 200px;
+    /* margin-bottom: 100px; */
     margin-top: 150px;
-    padding: 15px;
+    padding: 20px;
 }
 
 main>div {
@@ -129,6 +129,10 @@ main a {
     color: #62929E;
     font-family: 'Ubuntu Mono', monospace;
     font-weight: 600;
+}
+
+#education>div {
+    margin-bottom: 40px;
 }
 
 /* FOOTER */
@@ -263,9 +267,9 @@ main a {
 
     #headerText {
         display: flex;
-        justify-content: center;
+        /* justify-content: center; */
         width: 150px;
-        text-align: center;
+        /* text-align: center; */
         margin-left: 10px;
     }
 
