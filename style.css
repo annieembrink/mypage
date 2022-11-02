@@ -243,6 +243,12 @@ main a {
     text-decoration: none;
     cursor: pointer;
 }
+.contactClose:hover,
+.contactClose:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
 
 @media (min-width:1025px) {
 
