@@ -137,10 +137,8 @@ main a {
     gap: 10px;
     color: #F5F5F5;
     padding: 15px;
-    /* flex-grow: 1; */
-    row-gap: 20px;
+    row-gap: 40px;
     margin: auto;
-
 }
 
 #footerContent div {
@@ -156,17 +154,6 @@ main a {
     margin-right: 10px;
     color: #F5F5F5;
 }
-
-/* footer div {
-    display: flex;
-} */
-
-/* footer img {
-    width: 30px;
-    margin-right: 10px;
-} */
-
-
 
 
 /* The Modal (background) */
