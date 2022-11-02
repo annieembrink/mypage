@@ -9,7 +9,7 @@
 }
 
 body {
-    width: 100%;
+    width: 100vw;
     background-color: #F5F5F5;
 }
 
@@ -37,7 +37,7 @@ header {
 }
 
 #headerContent {
-    width: 100%;
+    /* width: 100%; */
     padding: 15px;
     color: #F5F5F5;
     display: flex;
@@ -46,9 +46,11 @@ header {
     justify-content: space-between;
 }
 
+
 #imgContainer {
     width: 150px;
     height: 150px;
+    /* flex-grow: 1; */
 }
 
 #imgContainer img {
@@ -59,10 +61,12 @@ header {
 }
 
 #headerText {
+    flex: 1;
+    margin-left: 10px;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    margin-bottom: 5px;
+    /* margin-bottom: 5px; */
 }
 
 #webDev {
