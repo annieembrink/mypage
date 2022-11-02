@@ -140,10 +140,9 @@ main a {
 #footerContent {
     display: flex;
     flex-direction: column-reverse;
-    gap: 10px;
+    gap: 40px;
     color: #F5F5F5;
     padding: 15px;
-    row-gap: 40px;
     margin: auto;
 }
 
