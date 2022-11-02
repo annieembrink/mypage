@@ -57,7 +57,7 @@ header {
     width: 100%;
     object-fit: cover;
     border-radius: 100%;
-    box-shadow: 1px 1px 3px 0px rgba(0, 0, 0, 1);
+    /* box-shadow: 1px 1px 3px 0px rgba(0, 0, 0, 1); */
 }
 
 #headerText {
@@ -76,7 +76,7 @@ header {
 /* MAIN */
 main {
     /* margin-bottom: 100px; */
-    margin-top: 150px;
+    margin-top: 170px;
     padding: 20px;
 }
 
@@ -249,7 +249,7 @@ main a {
         max-width: 600px;
         margin: auto;
         margin-bottom: 50px;
-        margin-top: 150px;
+        margin-top: 200px;
     }
 
     #headerText {
