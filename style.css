@@ -42,7 +42,7 @@ header {
     color: #F5F5F5;
     display: flex;
     flex-direction: row;
-    text-align: center;
+    /* text-align: center; */
     justify-content: space-between;
 }
 
@@ -61,8 +61,8 @@ header {
 #headerText {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    margin-top: 10px;
+    justify-content: flex-end;
+    margin-bottom: 5px;
 }
 
 #webDev {
