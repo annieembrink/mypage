@@ -63,8 +63,6 @@ header {
     flex-direction: column;
     justify-content: center;
     margin-top: 10px;
-    /* width: 150px; */
-    /* text-align: center; */
 }
 
 #webDev {
@@ -149,7 +147,6 @@ main a {
 }
 
 #footerContent div img {
-    /* display: none; */
     width: 10vw;
     margin-right: 10px;
     color: #F5F5F5;
@@ -266,22 +263,14 @@ main a {
         margin-left: 10px;
     }
 
-    /* footer {
-        min-height: 10%;
-        display: flex;
-        align-items: center;
-    } */
-
     #footerContent {
         display: flex;
         flex-direction: column-reverse;
-        /* justify-content: space-between; */
         width: 80%;
         margin: auto;
         gap: 30px;
         color: #F5F5F5;
         padding: 15px;
-        /* flex-grow: 1; */
     }
 
     #footerContent div {
