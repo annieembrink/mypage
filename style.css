@@ -18,27 +18,38 @@ body {
 header {
     background-color: #E87461;
     width: 100%;
-    position: fixed;
+    /* position: fixed;
     top: 0;
-    left: 0;
+    left: 0; */
 }
 
 #contact {
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    padding: 5px 10px;
-    border-radius: 10px;
-    background-color: #F5F5F5;
-    color: #E87461;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    /* border-radius: 10px; */
+    background-color: #E87461;
+    text-align: right;
+   
+}
+
+#contact #contactP {
+    display: inline-block;
+    padding: 10px;
+    color: #F5F5F5;
     font-size: 0.8rem;
     cursor: pointer;
-
+    background-color: #F5F5F5;
+    border-radius: 10px;
+    color: #62929E;
+    padding: 5px 10px;
+    margin: 5px;
 }
 
 #headerContent {
     /* width: 100%; */
-    padding: 15px;
+    padding: 35px 15px;
     color: #F5F5F5;
     display: flex;
     flex-direction: row;
@@ -48,15 +59,16 @@ header {
 
 
 #imgContainer {
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 200px;
     /* flex-grow: 1; */
 }
 
 #imgContainer img {
     width: 100%;
+    height: 100%;
     object-fit: cover;
-    border-radius: 100%;
+    /* border-radius: 100%; */
     /* box-shadow: 1px 1px 3px 0px rgba(0, 0, 0, 1); */
 }
 
@@ -76,12 +88,12 @@ header {
 /* MAIN */
 main {
     /* margin-bottom: 100px; */
-    margin-top: 170px;
+    /* margin-top: 250px; */
     padding: 20px;
 }
 
 main>div {
-    margin: 50px 0;
+    /* margin: 50px 0; */
 }
 
 main h4,
@@ -248,8 +260,8 @@ main a {
     main {
         max-width: 600px;
         margin: auto;
-        margin-bottom: 50px;
-        margin-top: 200px;
+        /* margin-bottom: 50px;
+        margin-top: 200px; */
     }
 
     #headerText {
@@ -257,7 +269,7 @@ main a {
     }
 
     #headerContent {
-        padding: 15px;
+        padding: 35px 15px;
         color: #F5F5F5;
         display: flex;
         flex-direction: row;
@@ -269,7 +281,14 @@ main a {
         /* justify-content: center; */
         width: 150px;
         /* text-align: center; */
-        margin-left: 10px;
+        margin-left: 20px;
+    }
+
+    #headerText #nameAnnie {
+        font-size: 3rem;
+    }
+    #headerText #webDev {
+        font-size: 2rem;
     }
 
     #footerContent {
